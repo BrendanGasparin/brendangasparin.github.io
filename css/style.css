@@ -8,6 +8,7 @@ h1 {
     color: chartreuse;
     font-family: 'Codystar', cursive;
     font-size: 1.3rem;
+    margin: 20px 0 20px 0;
 }
 
 .voidtitle	{ animation-name: title_fx;
