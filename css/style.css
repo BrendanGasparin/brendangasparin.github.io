@@ -5,10 +5,31 @@ body {
 
 h1 {
     text-align: center;
-    color: chartreuse;
     font-family: 'Codystar', cursive;
     font-size: 1.3rem;
     margin: 20px 0 20px 0;
+    color: blue;
+}
+
+h1 a:link {
+    text-decoration: none;
+}
+
+h1 a:visited {
+    text-decoration: none;
+}
+
+h1 a:hover {
+    text-decoration: none;
+}
+
+h1 a:after {
+    text-decoration: none;
+}
+
+h1 .voidtitle {
+    text-decoration: none;
+    color: chartreuse;
 }
 
 .voidtitle	{ animation-name: title_fx;
@@ -57,5 +78,7 @@ h1 {
 }
 
 @media (min-width: 1281px) {
-    
+    h1 {
+        font-size: 4.5rem;
+    }
 }
