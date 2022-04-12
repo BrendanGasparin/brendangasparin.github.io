@@ -1,0 +1,36 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: chartreuse;
+    font-family: 'Codystar', cursive;
+}
+
+.voidtitle	{ animation-name: title_fx;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; }
+
+.white-text {
+    color: #ffffff;
+}
+
+@keyframes title_fx { 
+    0% { color: chartreuse; }
+    20% { color: chartreuse; }
+    21% { color: black; }
+    22% { color: chartreuse; }
+    45% {color: chartreuse; }
+    50% { color: black; }
+    55% { color: chartreuse; }
+    80% { color: chartreuse; }
+    81% { color: black; }
+    82% { color: chartreuse; }
+    83% { color: black; }
+    84% { color: chartreuse; }
+    85% { color: black; }
+    100% { color: chartreuse; }
+}
