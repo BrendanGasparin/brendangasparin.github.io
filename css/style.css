@@ -15,7 +15,7 @@ h2 {
     color: chartreuse;
 }
 
-nav > ul {
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -42,7 +42,7 @@ h1 .animated-title {
     color: chartreuse;
 }
 
-nav > a {
+nav a {
     text-decoration: none;
 }
 
