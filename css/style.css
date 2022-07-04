@@ -41,24 +41,11 @@ nav a, nav a:link, nav a:visited, nav a:hover {
     height: 100%;
 }
 
-h1 a:link {
-    text-decoration: none;
-}
-
-h1 a:visited {
-    text-decoration: none;
-}
-
-h1 a:hover {
-    text-decoration: none;
-}
-
-h1 a:after {
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:after, h1 .animated-title {
     text-decoration: none;
 }
 
 h1 .animated-title {
-    text-decoration: none;
     color: chartreuse;
 }
 
