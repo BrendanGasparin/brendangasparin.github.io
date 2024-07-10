@@ -16,8 +16,15 @@ body {
 
 .top-bar {
     display: flex;
+    align-items: center;
     padding: 1rem;
     border-bottom: 1px solid #ffffff;
+}
+
+.top-bar-logo {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
 }
 
 h1 {
