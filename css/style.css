@@ -39,3 +39,7 @@ p {
 p.construction-emoji {
     font-size: 2rem;
 }
+
+a, a:hover, a:active, a:visited {
+    color: #00bb00;
+}
