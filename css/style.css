@@ -15,6 +15,7 @@ body {
 }
 
 .top-bar {
+    display: flex;
     padding: 1rem;
     border-bottom: 1px solid #ffffff;
 }
