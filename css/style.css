@@ -76,6 +76,7 @@ a, a:hover, a:active, a:visited {
 
 .double-columns {
     display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
@@ -89,4 +90,34 @@ a, a:hover, a:active, a:visited {
     border-radius: 50%;
     width: 25rem;
     height: 25rem;
+}
+
+
+/* MEDIA QUERIES FOR DIFFERENT DEVICE SIZES */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* Your styles for small devices */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* Your styles for medium devices */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    main {
+        width: 80%;
+        margin: 2rem auto;
+    }
+
+    .double-columns {
+        flex-direction: row;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Your styles for extra large devices */
 }
