@@ -76,7 +76,7 @@ a, a:hover, a:active, a:visited {
 
 .double-columns {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     width: 100%;
 }
