@@ -84,8 +84,8 @@ a, a:hover, a:active, a:visited {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
-    width: 25rem;
-    height: 25rem;
+    width: 10rem;
+    height: 10rem;
 }
 
 
@@ -114,6 +114,14 @@ a, a:hover, a:active, a:visited {
 
     .half-column {
         width: 50%;
+    }
+
+    .profile-pic {
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+        width: 25rem;
+        height: 25rem;
     }
 }
 
