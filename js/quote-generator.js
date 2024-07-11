@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
     const num_quotes = quotes.length;
     const quote = document.querySelector('.quote');
-    const quoter = document.querySelector('.quoter');
+    const quoter = document.querySelector('.quotee');
     const rng = Math.floor(Math.random() * num_quotes);
 
     quote.innerHTML = quotes[rng];
