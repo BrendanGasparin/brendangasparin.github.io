@@ -80,10 +80,6 @@ a, a:hover, a:active, a:visited {
     width: 100%;
 }
 
-.half-column {
-    width: 50%;
-}
-
 .profile-pic {
     display: block;
     margin: 0 auto;
@@ -114,6 +110,10 @@ a, a:hover, a:active, a:visited {
 
     .double-columns {
         flex-direction: row;
+    }
+
+    .half-column {
+        width: 50%;
     }
 }
 
