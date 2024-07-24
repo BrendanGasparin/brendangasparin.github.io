@@ -36,6 +36,17 @@ h2 {
     padding: 1rem;
 }
 
+.contact-button {
+    display: block;
+    margin: 2rem auto;
+    background-color: green;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 12rem;
+    border: 3px solid gray;
+    border-radius: 25px;
+}
+
 .dynamic-quote {
     margin: 1rem;
 }
