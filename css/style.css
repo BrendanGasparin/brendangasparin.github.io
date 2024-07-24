@@ -43,8 +43,12 @@ h2 {
     font-size: 2rem;
     font-weight: bold;
     padding: 1rem 12rem;
-    border: 3px solid gray;
+    border: 3px solid #AAAAAA;
     border-radius: 25px;
+}
+
+.contact-button:hover, .contact-button:active {
+    border: 3px solid white;
 }
 
 .down-button {
@@ -58,6 +62,7 @@ h2 {
     font-weight: bold;
     padding: 1rem;
     width: 20%;
+    border: 1px solid #AAAAAA;
     border-radius: 25px 25px 0 0;
 }
 
@@ -110,6 +115,7 @@ a, a:hover, a:active, a:visited {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
+    border: 5px solid darkslategray;
     width: 10rem;
     height: 10rem;
 }
