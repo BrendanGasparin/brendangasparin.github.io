@@ -18,3 +18,7 @@ nav {
     display: flex;
     justify-content: right;
 }
+
+nav>p {
+    margin: 0 5px;
+}
