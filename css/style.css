@@ -26,6 +26,11 @@ nav>p {
     margin: 0 5px;
 }
 
+nav>button {
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
 .logo {
     display: flex;
     align-items: center;
