@@ -7,7 +7,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 1rem;
     border-bottom: 1px solid #000000;
 }
 
@@ -29,4 +29,8 @@ nav>p {
 .logo {
     display: flex;
     align-items: center;
+}
+
+h1 {
+    margin: 1rem;
 }
