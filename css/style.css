@@ -9,6 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 1rem;
+    background-color: rebeccapurple;
     border-bottom: 1px solid #000000;
 }
 
@@ -33,6 +34,10 @@ nav>button, button {
 
 nav>button {
     margin-left: 2rem;
+}
+
+.cta-button {
+    background-color: gold;
 }
 
 .logo {
