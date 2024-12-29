@@ -74,11 +74,12 @@ nav>button {
 }
 
 .hero {
-    min-height: 80vh;
+    min-height: 70vh;
     width: 100vw;
     background: url('../images/hero-section-wavy.jpg') no-repeat center center;
     background-size: cover;
-    padding-top: 7vh;
+    padding-top: 2vh;
+    border: 1px solid black;
 }
 
 .column-half {
