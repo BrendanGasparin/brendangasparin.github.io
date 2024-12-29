@@ -26,6 +26,14 @@ header {
     color: gold;
 }
 
+.black-text-outline {
+    text-shadow:
+        -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+}
+
 nav {
     display: flex;
     justify-content: right;
