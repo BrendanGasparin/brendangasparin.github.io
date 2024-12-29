@@ -18,6 +18,12 @@ header {
     justify-content: left;
 }
 
+.brendan-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: gold;
+}
+
 nav {
     display: flex;
     justify-content: right;
