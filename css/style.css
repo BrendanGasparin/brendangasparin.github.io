@@ -61,6 +61,7 @@ nav>button {
 
 .cta-button {
     background-color: gold;
+    border-radius: 12px;
 }
 
 .logo {
@@ -70,11 +71,14 @@ nav>button {
 
 .hero {
     min-height: 65vh;
+    width: 100vw;
     border-bottom: 1px solid black;
+    background: url('../images/hero-section-bg.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 h1, p, button {
-    margin: 1rem;
+    padding: 1rem;
 }
 
 .subheading {
