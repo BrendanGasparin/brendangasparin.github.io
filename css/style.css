@@ -26,8 +26,11 @@ nav>p {
     margin: 0 5px;
 }
 
-nav>button {
+nav>button, button {
     padding: 1rem;
+}
+
+nav>button {
     margin-left: 2rem;
 }
 
@@ -36,6 +39,11 @@ nav>button {
     align-items: center;
 }
 
-h1, p {
+h1, p, button {
     margin: 1rem;
+}
+
+.subheading {
+    font-size: 1.2rem;
+    font-weight: bold;
 }
