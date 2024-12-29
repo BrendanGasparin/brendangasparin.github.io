@@ -8,7 +8,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     border-bottom: 1px solid #000000;
 }
 
@@ -24,7 +24,7 @@ nav {
 }
 
 nav>p {
-    margin: 0 5px;
+    margin: 0 1rem;
 }
 
 nav>button, button {
@@ -38,6 +38,11 @@ nav>button {
 .logo {
     display: flex;
     align-items: center;
+}
+
+.hero {
+    min-height: 65vh;
+    border-bottom: 1px solid black;
 }
 
 h1, p, button {
