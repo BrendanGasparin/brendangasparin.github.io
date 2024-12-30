@@ -104,6 +104,10 @@ nav>button {
     flex: 1;
 }
 
+.royal-purple-background {
+    background-color: #4B0082;
+}
+
 .metal-border {
     border: 15px solid #4f5b62;
 }
