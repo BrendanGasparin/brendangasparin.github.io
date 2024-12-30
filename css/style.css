@@ -74,12 +74,11 @@ nav>button {
 }
 
 .hero {
-    min-height: 70vh;
+    min-height: 75vh;
     width: 100vw;
     background: url('../images/hero-section-wavy.jpg') no-repeat center center;
     background-size: cover;
-    padding-top: 2vh;
-    border: 1px solid black;
+    padding-top: 4vh;
 }
 
 .column-half {
@@ -92,6 +91,15 @@ nav>button {
 
 h1 {
     font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+.services-heading {
+    padding-top: 30px;
+    text-align: center;
 }
 
 h1, p, button {
