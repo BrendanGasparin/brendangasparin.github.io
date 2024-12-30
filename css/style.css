@@ -96,18 +96,17 @@ nav>button {
     border: 15px solid #4f5b62;
 }
 
+.columns-three {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column-third {
+    flex: 1;
+}
+
 h1, h2 {
     font-size: 1.8rem;
-}
-
-h2 {
-    padding: 1rem;
-    text-align: center;
-}
-
-.services-div {
-    padding: 1rem;
-    text-align: center;
 }
 
 h1, p, button {
@@ -117,4 +116,14 @@ h1, p, button {
 .subheading {
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+h2, h3 {
+    padding: 1rem;
+    text-align: center;
+}
+
+.services-div {
+    padding: 1rem;
+    text-align: center;
 }
