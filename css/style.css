@@ -134,3 +134,10 @@ h2, h3 {
     padding: 1rem;
     text-align: center;
 }
+
+.centred-image {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 12px;
+}
