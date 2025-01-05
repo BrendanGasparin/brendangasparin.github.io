@@ -102,6 +102,7 @@ nav>button {
 
 .column-third {
     flex: 1;
+    margin: 0 3rem;
 }
 
 .royal-purple-background {
@@ -144,4 +145,8 @@ h2, h3 {
     margin: 0 auto;
     border: 2px solid black;
     border-radius: 12px;
+}
+
+.justify-text {
+    text-align: justify;
 }
