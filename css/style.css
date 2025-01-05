@@ -150,3 +150,16 @@ h2, h3 {
 .justify-text {
     text-align: justify;
 }
+
+.small-text {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+}
+
+.top-padding-1point5rem {
+    padding-top: 1.5rem;
+}
+
+.bottom-padding-1point5rem {
+    padding-bottom: 1.5rem;
+}
