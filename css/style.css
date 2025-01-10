@@ -6,189 +6,192 @@
     font-size: 18px;
 }
 
+/* HEADER AND NAV */
 header {
     position: fixed;
     top: 0;
+    z-index: 1000;
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 1rem;
     background-color: #4B0082;
-    border-bottom: 2px solid gold;
+    border-bottom: 2px solid #ffd700;
 }
-
 .logo {
     display: flex;
     justify-content: left;
+    align-items: center;
 }
-
 .brendan-name {
+    padding-left: 1rem;
     font-family: Rochester, cursive;
     font-size: 2rem;
     font-weight: bold;
-    color: gold;
+    color: #ffd700;
 }
-
-.black-text-outline {
-    text-shadow:
-        -2px -2px 0 black,
-        2px -2px 0 black,
-        -2px 2px 0 black,
-        2px 2px 0 black;
-}
-
 nav {
     display: flex;
     justify-content: right;
     align-items: center;
 }
-
 nav>p {
     margin: 0 1rem;
 }
-
 nav a, nav a:active, nav a:after, nav a:before, nav a:visited {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
-    color: gold;
+    color: #ffd700;
 }
-
 nav>button, button {
     padding: 1rem;
 }
-
 nav>button {
     margin-left: 2rem;
 }
 
-.hero-cta-button {
-    margin: 1rem;
-}
-
-.cta-button {
-    background-color: gold;
-    border-radius: 12px;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
+/* HERO SECTION */
 .hero {
-    min-height: 95vh;
+    min-height: 85vh;
     width: 100%;
     background: url('../images/hero-section-wavy.jpg') no-repeat center center;
     background-size: cover;
     padding-top: 15vh;
 }
-
-.services-div {
-    margin-top: -60px;
-    padding-bottom: 120px;
-}
-
-.about-section {
-    display: flex;
-    min-height: 75vh;
-    width: 100%;
-    background: url('../images/milky-way.jpg') no-repeat center center;
-    background-size: cover;
-    padding: 120px 0;
-}
-
-.column-half {
+.hero-text {
     width: 40vw;
     margin-left: 10vw;
+    padding: 2rem;
     background-color: rgba(256, 256, 256, 0.7);
     border-radius: 24px;
     border: 15px solid #4f5b62;
 }
 
-.column-half-right {
-    margin-right: 10vw;
+/* SERVICES SECTION */
+.services-section {
+    padding-bottom: 120px;
+    background-color: #4B0082;
+}
+.services-section h2, .services-section h3 {
+    text-align: center;
+}
+.services-section img {
+    display: block;
+    margin: 0 auto;
+}
+.services-section .column-third {
+    border: 3px solid #4f5b62;
+    border-radius: 24px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+
 }
 
+/* ABOUT SECTION */
+.about-section {
+    background: url('../images/milky-way.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+    padding: 120px 0;
+}
+
+/* MULTIPLE SECTIONS */
+.bordered-screen {
+    background-color: rgba(256, 256, 256, 0.7);
+    border: 15px solid #4f5b62;
+    border-radius: 24px;
+    padding: 1rem 2rem;
+}
+.services-section img, .about-section img {
+    border-radius: 24px;
+    border: 3px solid #000000;
+}
+
+/* FLEX LAYOUTS */
+.hero-text {
+    width: 40vw;
+    margin-left: 10vw;
+    background-color: rgba(208, 208, 208, 0.7);
+    border-radius: 24px;
+    border: 15px solid #4f5b62;
+}
 .column-single {
     margin: 0 10vw;
-    border-radius: 24px;
     background-color: rgba(208, 208, 208, 0.7);
+    border: 15px solid #4f5b62;
+    border-radius: 24px;
 }
-
 .columns-three {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-
 .column-third {
     flex: 1;
     margin: 0 3rem;
 }
-
-.royal-purple-background {
-    background-color: #4B0082;
+.columns-two {
+    margin: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+}
+.column-half {
+    flex: 1;
 }
 
-.metal-border {
-    border: 15px solid #4f5b62;
+/* FORM */
+form {
+    width: 100%;
+}
+label {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+}
+input {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem;
 }
 
-h1, h2 {
+/* GENERAL */
+h1, h2, h3, p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+h1 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+h2 {
     font-size: 1.8rem;
 }
-
 h3 {
     font-size: 1.3rem;
 }
-
-h1, p, button {
-    padding: 1rem;
+.black-text-outline {
+    text-shadow:
+        -3px -3px 0 black,
+        3px -3px 0 black,
+        -3px 3px 0 black,
+        3px 3px 0 black;
 }
-
 .subheading {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
-
-h2, h3 {
-    padding: 1rem;
-    text-align: center;
-}
-
-.centred-image {
-    display: block;
-    margin: 0 auto;
-    border: 2px solid black;
-    border-radius: 12px;
-}
-
 .justify-text {
     text-align: justify;
 }
-
-.small-text {
-    font-size: 0.9rem;
-    padding: 0.6rem;
-}
-
-.top-padding-1point5rem {
-    padding-top: 1.5rem;
-}
-
-.bottom-padding-1point5rem {
-    padding-bottom: 1.5rem;
-}
-
-.image-fill {
-    width: 90%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.center-vertically {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cta-button {
+    background-color: #ffd700;
+    border-radius: 12px;
+    border: 3px soliD #000000;
 }
