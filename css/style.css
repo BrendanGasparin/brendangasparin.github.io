@@ -101,7 +101,8 @@ nav>button {
     font-size: 1.4rem;
 }
 .subpage-heading h1, .subpage-heading p {
-    margin: 0;
+    padding: 1rem 0;
+    background-color: var(--primary-color);
     text-align: center;
 }
 
@@ -291,6 +292,23 @@ h3 {
     .hamburger-menu {
         display: none;
     }
+
+    /* HERO SECTION */
+    .hero {
+        min-height: 90lvh;
+        width: 100%;
+        background: url('../images/hero-section-wavy.jpg') no-repeat center center;
+        background-size: cover;
+        padding-top: 15vh;
+    }
+    .hero-text {
+        width: 40vw;
+        margin-left: 10vw;
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 24px;
+        border: 15px solid #4f5b62;
+    }
     .services-section {
         padding-bottom: 60px;
     }
@@ -376,22 +394,5 @@ h3 {
     .location {
         font-size: 2rem;
         font-weight: bold;
-    }
-
-    /* HERO SECTION */
-    .hero {
-        min-height: 95vh;
-        width: 100%;
-        background: url('../images/hero-section-wavy.jpg') no-repeat center center;
-        background-size: cover;
-        padding-top: 15vh;
-    }
-    .hero-text {
-        width: 40vw;
-        margin-left: 10vw;
-        padding: 2rem;
-        background-color: rgba(0, 0, 0, 0.7);
-        border-radius: 24px;
-        border: 15px solid #4f5b62;
     }
 }
