@@ -91,7 +91,7 @@ nav>button {
 
 /* SERVICES SECTION */
 .services-section {
-    padding-bottom: 120px;
+    padding-bottom: 60px;
     background-color: var(--primary-color);
 }
 .services-section .columns-three {
@@ -251,6 +251,9 @@ h3 {
     }
     .hamburger-menu {
         display: none;
+    }
+    .services-section {
+        padding-bottom: 60px;
     }
     .services-section .columns-three {
         flex-direction: row;
