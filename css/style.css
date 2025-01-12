@@ -194,7 +194,11 @@ h3 {
     font-size: 1.3rem;
 }
 .subheading {
-    font-size: 1.3rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.location {
+    font-size: 2rem;
     font-weight: bold;
 }
 .justify-text {
