@@ -39,7 +39,7 @@ nav {
     align-items: center;
 }
 nav>p {
-    margin: 0 1rem;
+    display: none;
 }
 nav a, nav a:active, nav a:after, nav a:before, nav a:visited {
     text-decoration: none;
@@ -205,18 +205,8 @@ h3 {
 
 /* Mobile devices */
 @media screen and (max-width:768px) {
-    * {
-        color: red;
-    }
     nav>p {
         display: none;
-    }
-}
-
-/* Larger than 720P but smaller than 1080P */
-@media screen and (min-width: 1281px) and (max-width: 1919px) {
-    * {
-        font-size: 16px;
     }
 }
 
@@ -224,6 +214,17 @@ h3 {
 @media screen and (min-width: 1280px) and (min-height: 720px) and (max-height:800px) and (orientation:landscape) {
     * {
         font-size: 14px;
+    }
+    nav>p {
+        display: block;
+        margin: 0 1rem;
+    }
+}
+
+/* Larger than 720P but smaller than 1080P */
+@media screen and (min-width: 1281px) and (max-width: 1919px) {
+    * {
+        font-size: 16px;
     }
 }
 
