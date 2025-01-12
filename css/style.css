@@ -50,6 +50,7 @@ nav a, nav a:active, nav a:after, nav a:before, nav a:visited {
 nav>button, button {
     padding: 0.5rem;
     color: #000000;
+    font-weight: bold;
 }
 
 /* HERO SECTION */
