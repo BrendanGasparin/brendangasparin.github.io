@@ -128,6 +128,9 @@ nav>button {
 .opera-house {
     display: none;
 }
+.about-section h2 {
+    text-align: center;
+}
 .about-section .columns-two {
     display: block;
     margin: 0 5%;
