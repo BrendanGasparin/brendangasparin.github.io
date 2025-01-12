@@ -205,6 +205,9 @@ h3 {
 
 /* Mobile devices */
 @media screen and (max-width:768px) {
+    * {
+        color: red;
+    }
     nav>p {
         display: none;
     }
