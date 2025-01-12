@@ -65,6 +65,9 @@ nav>button, button {
     color: #000000;
     font-weight: bold;
 }
+nav>button {
+    display: none;
+}
 
 /* HERO SECTION */
 .hero {
@@ -230,6 +233,10 @@ h3 {
     }
     nav>button {
         margin-left: 2rem;
+        display: block;
+    }
+    .hamburger-menu {
+        display: none;
     }
 }
 
