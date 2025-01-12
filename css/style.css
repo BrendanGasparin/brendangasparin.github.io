@@ -23,6 +23,9 @@ header {
     justify-content: left;
     align-items: center;
 }
+.logo-link {
+    text-decoration: none;
+}
 .brendan-name {
     padding-left: 1rem;
     font-family: Rochester, cursive;
