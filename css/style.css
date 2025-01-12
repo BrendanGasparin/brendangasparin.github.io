@@ -77,11 +77,11 @@ nav>button {
     width: 100%;
     background: url('../images/nebula-background-wavy.jpg') no-repeat center center;
     background-size: cover;
-    /* padding-top: 120px; */
+    padding-top: 120px;
 }
 .hero-text {
     width: 90%;
-    margin: 120px 5% 0 5%;
+    margin: 0 5%;
     padding: 2rem;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 24px;
