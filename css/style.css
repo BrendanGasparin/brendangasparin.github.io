@@ -123,6 +123,7 @@ nav>button {
     /* background: url('../images/milky-way.jpg') no-repeat center center;
     background-size: cover; */
     background-color: var(--primary-color);
+    margin-bottom: 0;
     padding: 60px 0;
 }
 .opera-house {
