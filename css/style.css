@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /* HEADER AND NAV */
@@ -204,7 +204,25 @@ h3 {
 /* MEDIA QUERIES */
 
 /* Mobile devices */
-@media screen and (max-width:768px)
+@media screen and (max-width:768px) {
+    .brendan-name {
+        font-size: 1.2rem;
+    }
+}
+
+/* Larger than 720P but smaller than 1080P */
+@media screen and (min-width: 1281px) and (max-width: 1919px) {
+    * {
+        font-size: 16px;
+    }
+}
+
+/* 720P laptops */
+@media screen and (min-width: 1280px) and (min-height: 720px) and (max-height:800px) and (orientation:landscape) {
+    * {
+        font-size: 14px;
+    }
+}
 
 /* 1080P and above */
 @media screen and (min-width: 1920px) {
@@ -227,19 +245,5 @@ h3 {
         background-color: rgba(256, 256, 256, 0.7);
         border-radius: 24px;
         border: 15px solid #4f5b62;
-    }
-}
-
-/* Larger than 720P but smaller than 1080P */
-@media screen and (min-width: 1281px) and (max-width: 1919px) {
-    * {
-        font-size: 16px;
-    }
-}
-
-/* 720P laptops */
-@media screen and (min-width: 1280px) and (min-height: 720px) and (max-height:800px) and (orientation:landscape) {
-    * {
-        font-size: 14px;
     }
 }
