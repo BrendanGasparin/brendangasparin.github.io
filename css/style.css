@@ -130,6 +130,10 @@ nav>button {
 .opera-house {
     display: none;
 }
+.about-box {
+    width: 90%;
+    margin: 0 5%;
+}
 
 /* CONTACT SECTION */
 .contact-section {
