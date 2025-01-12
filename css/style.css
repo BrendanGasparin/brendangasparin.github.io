@@ -71,7 +71,7 @@ nav>button {
 
 /* HERO SECTION */
 .hero {
-    min-height: 90vh;
+    min-height: calc(90vh - 15vh);
     width: 100%;
     background: url('../images/nebula-background-wavy.jpg') no-repeat center center;
     background-size: cover;
