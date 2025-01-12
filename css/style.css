@@ -160,6 +160,12 @@ nav>button {
     margin: 3.1rem 0;
 }
 
+/* FOOTER */
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
 /* MULTIPLE SECTIONS */
 .bordered-screen {
     background-color: rgba(0, 0, 0, 0.7);
