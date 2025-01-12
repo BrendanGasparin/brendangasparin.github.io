@@ -44,7 +44,7 @@ header {
 .brendan-name {
     padding-left: 1rem;
     font-family: Rochester, cursive;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     color: var(--text-color);
 }
