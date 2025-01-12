@@ -272,6 +272,10 @@ h3 {
         display: flex;
         margin: 0 10%;
     }
+    .about-box {
+        width: 100%;
+        margin: 0;
+    }
     .opera-house {
         display: block;
     }
