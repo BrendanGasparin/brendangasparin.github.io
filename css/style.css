@@ -81,7 +81,7 @@ nav>button {
 }
 .hero-text {
     width: 90%;
-    margin: 0 5%;
+    margin: 120px 5% 0 5%;
     padding: 2rem;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 24px;
