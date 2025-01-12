@@ -1,3 +1,15 @@
+/*
+:root {
+    --primary-color: #4b0082;
+    --highlight-color: #ffd700;
+}
+*/
+
+:root {
+    --primary-color: #000000;
+    --highlight-color: #ffffff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,8 +27,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 1rem;
-    background-color: #4B0082;
-    border-bottom: 2px solid #ffd700;
+    background-color: var(--primary-color);
 }
 .logo {
     display: flex;
@@ -31,7 +42,7 @@ header {
     font-family: Rochester, cursive;
     font-size: 1.2rem;
     font-weight: bold;
-    color: #ffd700;
+    color: var(--highlight-color);
 }
 nav {
     display: flex;
@@ -45,7 +56,7 @@ nav a, nav a:active, nav a:after, nav a:before, nav a:visited {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ffd700;
+    color: var(--highlight-color);
 }
 nav>button, button {
     padding: 0.5rem;
@@ -73,7 +84,7 @@ nav>button, button {
 /* SERVICES SECTION */
 .services-section {
     padding-bottom: 120px;
-    background-color: #4B0082;
+    background-color: var(--primary-color);
 }
 .services-section h2, .services-section h3 {
     text-align: center;
@@ -180,13 +191,6 @@ h2 {
 h3 {
     font-size: 1.3rem;
 }
-.black-text-outline {
-    text-shadow:
-        -3px -3px 0 black,
-        3px -3px 0 black,
-        -3px 3px 0 black,
-        3px 3px 0 black;
-}
 .subheading {
     font-size: 1.3rem;
     font-weight: bold;
@@ -195,7 +199,7 @@ h3 {
     text-align: justify;
 }
 .cta-button {
-    background-color: #ffd700;
+    background-color: var(--highlight-color);
     border-radius: 12px;
     border: 3px soliD #000000;
 }
@@ -207,8 +211,8 @@ h3 {
 
 }
 
-/* 720P laptops */
-@media screen and (min-width: 1280px) and (min-height: 720px) {
+/* Larger than a phone */
+@media screen and (min-width: 769px) {
     * {
         font-size: 14px;
     }
@@ -221,6 +225,13 @@ h3 {
     }
     nav>button {
         margin-left: 2rem;
+    }
+}
+
+/* 720P laptops */
+@media screen and (min-width: 1280px) and (min-height: 720px) {
+    .brendan-name {
+        font-size: 2rem;
     }
 }
 
