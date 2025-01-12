@@ -79,6 +79,8 @@ nav>button {
 .services-section img {
     display: block;
     margin: 0 auto;
+    height: 25vh;
+    width: auto;
 }
 .services-section .column-third {
     border: 3px solid #4f5b62;
