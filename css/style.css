@@ -217,6 +217,9 @@ h3 {
     * {
         font-size: 14px;
     }
+    header {
+        height: 100px;
+    }
     nav>p {
         display: block;
         margin: 0 1rem;
@@ -230,6 +233,14 @@ h3 {
     }
     .hamburger-menu {
         display: none;
+    }
+    .services-section h2 {
+        font-size: 2.5rem;
+        margin-top: -70px;
+        padding-bottom: 2rem;
+    }
+    .services-section h3 {
+        font-size: 1.8rem;
     }
 }
 
