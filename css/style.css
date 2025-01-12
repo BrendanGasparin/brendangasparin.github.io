@@ -153,6 +153,12 @@ nav>button {
 .contact-section .column-half {
     margin-bottom: 80px;
 }
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3.1rem 0;
+}
 
 /* MULTIPLE SECTIONS */
 .bordered-screen {
@@ -298,6 +304,7 @@ h3 {
     }
     .contact-section .columns-two {
         display: flex;
+        align-items: flex-start;
         margin: 0 10%;
     }
 }
