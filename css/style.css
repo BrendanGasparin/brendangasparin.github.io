@@ -130,6 +130,10 @@ nav>button {
 .opera-house {
     display: none;
 }
+.about-section .columns-two {
+    display: block;
+    margin: 0 5%;
+}
 .about-box {
     width: 90%;
     margin: 0 5%;
@@ -157,16 +161,8 @@ nav>button {
     margin: 0 10%;
     border-radius: 24px;
 }
-.columns-three {
-    display: flex;
-    justify-content: space-between;
-}
-.column-third {
-    flex: 1;
-    margin: 0 3rem;
-}
 .columns-two {
-    margin: 0 10vw;
+    margin: 0 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -174,6 +170,14 @@ nav>button {
 }
 .column-half {
     flex: 1;
+}
+.columns-three {
+    display: flex;
+    justify-content: space-between;
+}
+.column-third {
+    flex: 1;
+    margin: 0 3rem;
 }
 
 /* FORM */
@@ -263,6 +267,10 @@ h3 {
     }
     .services-section h3 {
         font-size: 1.8rem;
+    }
+    .about-section .columns-two {
+        display: flex;
+        margin: 0 10%;
     }
     .opera-house {
         display: block;
