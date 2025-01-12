@@ -94,6 +94,14 @@ nav>button {
     padding-bottom: 120px;
     background-color: var(--primary-color);
 }
+.services-section .columns-three {
+    display: flex;
+    flex-direction: column;
+}
+.services-section .column-third {
+    width: 90%;
+    margin: 0 5% 30px 5%;
+}
 .services-section h2, .services-section h3 {
     text-align: center;
 }
@@ -135,7 +143,6 @@ nav>button {
 }
 .services-section img, .about-section img {
     border-radius: 24px;
-    border: 3px solid #000000;
 }
 
 /* FLEX LAYOUTS */
@@ -233,6 +240,14 @@ h3 {
     }
     .hamburger-menu {
         display: none;
+    }
+    .services-section .columns-three {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .services-section .column-third {
+        width: 96%;
+        margin: 0 2% 30px 2%;
     }
     .services-section h2 {
         font-size: 2.5rem;
