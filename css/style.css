@@ -89,6 +89,22 @@ nav>button {
     text-align: center;
 }
 
+/* SUBPAGE HEADING */
+.subpage-heading {
+    background-color: var(--primary-color);
+    padding-top: 120px;
+}
+.subpage-heading h1 {
+    font-size: 2.4rem;
+}
+.subpage-heading p {
+    font-size: 1.4rem;
+}
+.subpage-heading h1, .subpage-heading p {
+    margin: 0;
+    text-align: center;
+}
+
 /* SERVICES SECTION */
 .services-section {
     padding-bottom: 60px;
