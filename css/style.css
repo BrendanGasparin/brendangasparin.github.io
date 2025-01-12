@@ -143,7 +143,14 @@ nav>button {
 /* CONTACT SECTION */
 .contact-section {
     background-color: var(--primary-color);
-    padding: 120px 0;
+    padding: 60px 0;
+}
+.contact-section .columns-two {
+    display: block;
+    margin: 0 10%;
+}
+.contact-section .column-half {
+    margin-bottom: 80px;
 }
 
 /* MULTIPLE SECTIONS */
@@ -284,6 +291,11 @@ h3 {
     }
     .opera-house {
         display: block;
+    }
+
+    .contact-section .columns-two {
+        display: flex;
+        margin: 0 10%;
     }
 }
 
