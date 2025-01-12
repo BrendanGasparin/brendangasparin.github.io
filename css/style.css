@@ -7,7 +7,8 @@
 
 :root {
     --primary-color: #000000;
-    --highlight-color: #ffffff;
+    --highlight-color: #ffd700;
+    --text-color: #ffffff;
 }
 
 * {
@@ -16,6 +17,7 @@
     box-sizing: border-box;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 14px;
+    color: var(--text-color);
 }
 
 /* HEADER AND NAV */
@@ -42,7 +44,7 @@ header {
     font-family: Rochester, cursive;
     font-size: 1.2rem;
     font-weight: bold;
-    color: var(--highlight-color);
+    color: var(--text-color);
 }
 nav {
     display: flex;
@@ -56,7 +58,7 @@ nav a, nav a:active, nav a:after, nav a:before, nav a:visited {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--highlight-color);
+    color: var(--text-color);;
 }
 nav>button, button {
     padding: 0.5rem;
@@ -131,7 +133,7 @@ nav>button, button {
 .hero-text {
     width: 40vw;
     margin-left: 10vw;
-    background-color: rgba(208, 208, 208, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 24px;
     border: 15px solid #4f5b62;
 }
@@ -201,7 +203,6 @@ h3 {
 .cta-button {
     background-color: var(--highlight-color);
     border-radius: 12px;
-    border: 3px soliD #000000;
 }
 
 /* MEDIA QUERIES */
