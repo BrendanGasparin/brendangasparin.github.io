@@ -293,7 +293,9 @@ h3 {
     .opera-house {
         display: block;
     }
-
+    .brendan-in-space {
+        display: none;
+    }
     .contact-section .columns-two {
         display: flex;
         margin: 0 10%;
