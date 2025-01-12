@@ -190,12 +190,8 @@ h2 {
 h3 {
     font-size: 1.3rem;
 }
-.subheading {
-    font-size: 1.6rem;
-    font-weight: bold;
-}
-.location {
-    font-size: 1.6rem;
+.subheading, .location {
+    font-size: 1.4rem;
     font-weight: bold;
 }
 .justify-text {
