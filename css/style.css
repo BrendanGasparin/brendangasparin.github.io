@@ -127,6 +127,9 @@ nav>button {
     background-color: var(--primary-color);
     padding: 60px 0;
 }
+.opera-house {
+    display: none;
+}
 
 /* CONTACT SECTION */
 .contact-section {
@@ -256,6 +259,9 @@ h3 {
     }
     .services-section h3 {
         font-size: 1.8rem;
+    }
+    .opera-house {
+        display: block;
     }
 }
 
