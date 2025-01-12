@@ -77,6 +77,7 @@ nav>button {
     width: 100%;
     background: url('../images/nebula-background-wavy.jpg') no-repeat center center;
     background-size: cover;
+    background-attachment: scroll;
     padding-top: 120px;
 }
 .hero-text {
