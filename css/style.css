@@ -205,7 +205,9 @@ h3 {
 
 /* Mobile devices */
 @media screen and (max-width:768px) {
-
+    .nav p {
+        display: none;
+    }
 }
 
 /* Larger than 720P but smaller than 1080P */
