@@ -377,7 +377,9 @@ h3 {
     h2 {
         font-size: 1.6rem;
     }
-
+    h3 {
+        font-size: 1.1rem;
+    }
 }
 
 /* Larger than 720P but smaller than 1080P */
