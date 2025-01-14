@@ -372,14 +372,16 @@ h3 {
     /* HERO SECTION */
 
     /* SERVICES SECTION */
+    .services-section h2 {
+        font-size: 2.2rem;
+        margin-top: -70px;
+        padding-bottom: 2rem;
+    }
+    .services-section h3 {
+        font-size: 1.4rem;
+    }
 
     /* GENERAL */
-    h2 {
-        font-size: 1.6rem;
-    }
-    h3 {
-        font-size: 1.1rem;
-    }
 }
 
 /* Larger than 720P but smaller than 1080P */
