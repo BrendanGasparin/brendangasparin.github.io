@@ -374,7 +374,7 @@ h3 {
 }
 
 /* Larger than 720P but smaller than 1080P */
-@media screen and (min-width: 1281px) and (max-width: 1919px) {
+@media screen and (min-width: 1281px) {
     * {
         font-size: 16px;
     }
