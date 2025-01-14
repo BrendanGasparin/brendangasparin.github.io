@@ -275,6 +275,8 @@ h3 {
     * {
         font-size: 14px;
     }
+
+    /* HEADER SECTION */
     header {
         height: 100px;
     }
@@ -309,6 +311,7 @@ h3 {
         border-radius: 24px;
         border: 15px solid #4f5b62;
     }
+    /* SERVICES SECTION */
     .services-section {
         padding-bottom: 60px;
     }
@@ -328,6 +331,8 @@ h3 {
     .services-section h3 {
         font-size: 1.8rem;
     }
+
+    /* ABOUT SECTION */
     .about-section .columns-two {
         display: flex;
         margin: 0 10%;
@@ -342,6 +347,8 @@ h3 {
     img.brendan-in-space {
         display: none;
     }
+    
+    /* CONTACT SECTION */
     .contact-section .columns-two {
         display: flex;
         align-items: flex-start;
