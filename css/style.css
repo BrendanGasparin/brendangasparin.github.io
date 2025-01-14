@@ -60,7 +60,7 @@ nav a, nav a:active, nav a:after, nav a:before, nav a:visited {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--text-color);;
+    color: var(--text-color);
 }
 nav>button, button {
     padding: 0.5rem;
@@ -357,13 +357,16 @@ h3 {
 }
 
 /* 720P laptops */
+@media screen and (min-width: 1280px) and (max-height: 720px) {
     /* HEADER SECTION */
     header {
         height: 60px;
     }
     .brendan-name {
         font-size: 1.5rem;
-        color: red;
+    }
+    nav a, nav a:active, nav a:after, nav a:before, nav a:visited {
+        font-size: 1.3rem;
     }
 }
 
