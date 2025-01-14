@@ -383,6 +383,12 @@ h3 {
         height: 180px;
     }
 
+    /* ABOUT SECTION */
+    .opera-house {
+        width: 500;
+        height: auto;
+    }
+
     /* GENERAL */
 }
 
