@@ -374,6 +374,7 @@ h3 {
     /* SERVICES SECTION */
     .services-section h2 {
         font-size: 2.2rem;
+        padding-bottom: 1.2rem;
     }
     .services-section h3 {
         font-size: 1.4rem;
