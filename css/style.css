@@ -357,9 +357,13 @@ h3 {
 }
 
 /* 720P laptops */
-@media screen and (min-width: 1280px) and (min-height: 720px) {
+    /* HEADER SECTION */
+    header {
+        height: 60px;
+    }
     .brendan-name {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        color: red;
     }
 }
 
