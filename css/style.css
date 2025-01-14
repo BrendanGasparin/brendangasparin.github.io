@@ -379,6 +379,9 @@ h3 {
     .services-section h3 {
         font-size: 1.4rem;
     }
+    .services-section img {
+        height: 180px;
+    }
 
     /* GENERAL */
 }
