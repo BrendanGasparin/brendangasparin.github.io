@@ -80,6 +80,8 @@ nav>p {
 }
 .pop-down-menu li a {
     text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: normal;
 }
 .pop-down-menu li a:hover {
     background-color: #404040;
