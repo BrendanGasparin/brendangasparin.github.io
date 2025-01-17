@@ -314,7 +314,6 @@ h3 {
 
     /* HERO SECTION */
     .hero {
-        min-height: 750px;
         width: 100%;
         background: url('../images/hero-section-wavy.jpg') no-repeat center center;
         background-size: cover;
