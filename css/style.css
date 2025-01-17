@@ -276,16 +276,12 @@ h3 {
 
 /* Small tablets in portrait orientation */
 @media screen and (min-width: 600px) and (orientation: portrait) {
-    .opera-house img {
-        width: 200px;
-        height: auto;
-    }
 }
 
 /* Small tablets in landscape orientation */
 @media screen and (min-width: 600px) and (orientation: landscape) {
     .opera-house img {
-        width: 200px;
+        width: 300px;
         height: auto;
     }
 }
