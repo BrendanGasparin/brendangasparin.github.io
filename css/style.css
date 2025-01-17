@@ -280,9 +280,6 @@ h3 {
 
 /* Small tablets in landscape orientation */
 @media screen and (min-width: 600px) and (orientation: landscape) {
-    .hero {
-        min-height: 700px;
-    }
     .opera-house img {
         width: 400px;
         height: auto;
@@ -317,7 +314,7 @@ h3 {
 
     /* HERO SECTION */
     .hero {
-        min-height: 650px;
+        min-height: 680px;
         width: 100%;
         background: url('../images/hero-section-wavy.jpg') no-repeat center center;
         background-size: cover;
@@ -377,7 +374,7 @@ h3 {
 }
 
 /* 720P laptops */
-@media screen and (min-width: 1280px) and (max-height: 720px) {
+@media screen and (min-width: 1280px) {
     /* HEADER SECTION */
     header {
         height: 60px;
@@ -390,6 +387,9 @@ h3 {
     }
 
     /* HERO SECTION */
+    .hero {
+        min-height: 650px;
+    }
 
     /* SERVICES SECTION */
     .services-section h2 {
