@@ -56,6 +56,34 @@ nav {
 nav>p {
     display: none;
 }
+.hamburger-menu {
+    width: 30px;
+    cursor: pointer;
+}
+.pop-down-menu {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 5px;
+    background-color: var(--primary-color);
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid white;
+    border-radius: 4px;
+    z-index: 1000;
+}
+.pop-down-menu li {
+    padding: 8px 16px;
+    text-align: center;
+}
+.pop-down-menu li a {
+    text-decoration: none;
+}
+.pop-down-menu li a:hover {
+    background-color: #404040;
+}
 nav a, nav a:active, nav a:after, nav a:before, nav a:visited {
     text-decoration: none;
     font-size: 1.5rem;
