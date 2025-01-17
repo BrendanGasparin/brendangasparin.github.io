@@ -280,6 +280,9 @@ h3 {
 
 /* Small tablets in landscape orientation */
 @media screen and (min-width: 600px) and (orientation: landscape) {
+    .hero {
+        min-height: 700px;
+    }
     .opera-house img {
         width: 400px;
         height: auto;
