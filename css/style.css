@@ -259,6 +259,9 @@ h3 {
 .justify-text {
     text-align: justify;
 }
+.center-text {
+    text-align: center;
+}
 .cta-button {
     background-color: var(--highlight-color);
     border-radius: 12px;
