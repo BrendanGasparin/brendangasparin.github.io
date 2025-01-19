@@ -6,5 +6,5 @@ h1, p {
 
 section {
     background-color: var(--primary-color);
-    padding: 80px 10%;
+    padding: 80px 10% 60px 10%;
 }

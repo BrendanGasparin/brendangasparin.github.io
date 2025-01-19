@@ -1,0 +1,43 @@
+a.article-link {
+    text-decoration: none;
+}
+
+article {
+    padding: 60px 0;
+}
+
+article img {
+    border-radius: 24px;
+}
+
+/* MEDIA QUERIES */
+
+/* Mobile devices */
+@media screen and (max-width:768px) {
+
+}
+
+/* Small tablets in portrait orientation */
+@media screen and (min-width: 600px) and (orientation: portrait) {
+
+}
+
+/* Small tablets in landscape orientation */
+@media screen and (min-width: 600px) and (orientation: landscape) {
+
+}
+
+/* Larger than a phone */
+@media screen and (min-width: 769px) {
+  
+}
+
+/* Larger than 720P but smaller than 1080P */
+@media screen and (min-width: 1281px) {
+
+}
+
+/* 1080P and above */
+@media screen and (min-width: 1920px) {
+
+}
