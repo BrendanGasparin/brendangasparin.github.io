@@ -10,6 +10,11 @@ article img {
     border-radius: 24px;
 }
 
+article {
+    display: flex;
+    flex-direction: column;
+}
+
 /* MEDIA QUERIES */
 
 /* Mobile devices */
@@ -24,12 +29,13 @@ article img {
 
 /* Small tablets in landscape orientation */
 @media screen and (min-width: 600px) and (orientation: landscape) {
-
 }
 
 /* Larger than a phone */
 @media screen and (min-width: 769px) {
-  
+    article {
+        flex-direction: row;
+    }
 }
 
 /* Larger than 720P but smaller than 1080P */
