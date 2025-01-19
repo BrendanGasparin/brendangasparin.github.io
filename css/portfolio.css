@@ -17,6 +17,7 @@ article {
 
 article img {
     margin-bottom: 30px;
+    width: 100%;
 }
 
 /* MEDIA QUERIES */
@@ -37,8 +38,16 @@ article img {
 
 /* Larger than a phone */
 @media screen and (min-width: 769px) {
-    article {
+    section a article {
         flex-direction: row;
+        align-items: center;
+    }
+    section a article h3 {
+        margin-top: 0;
+    }
+    article img {
+        width: 40%;
+        margin-bottom: 0;
     }
 }
 
