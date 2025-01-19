@@ -15,6 +15,10 @@ article {
     flex-direction: column;
 }
 
+article img {
+    padding-bottom: 30px;
+}
+
 /* MEDIA QUERIES */
 
 /* Mobile devices */
@@ -35,9 +39,6 @@ article {
 @media screen and (min-width: 769px) {
     article {
         flex-direction: row;
-    }
-    article img {
-        margin-bottom: 30px;
     }
 }
 
