@@ -37,7 +37,7 @@ article {
         flex-direction: row;
     }
     article img {
-        padding-bottom: 30px;
+        margin-bottom: 30px;
     }
 }
 
