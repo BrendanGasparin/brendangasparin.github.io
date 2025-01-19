@@ -8,6 +8,7 @@ article {
 
 article img {
     border-radius: 24px;
+    border: 3px solid #4f5b62;
 }
 
 article {
@@ -48,6 +49,9 @@ article img {
     article img {
         width: 40%;
         margin-bottom: 0;
+    }
+    a article.row-reverse {
+        flex-direction: row-reverse;
     }
 }
 
