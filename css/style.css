@@ -236,7 +236,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5vw;
+    gap: 5%;
 }
 .column-half {
     flex: 1;
