@@ -36,6 +36,9 @@ article {
     article {
         flex-direction: row;
     }
+    article img {
+        padding-bottom: 30px;
+    }
 }
 
 /* Larger than 720P but smaller than 1080P */
