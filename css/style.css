@@ -464,6 +464,7 @@ h3 {
     /* GENERAL */
     .columns-two .column-half img, .columns-two img.column-half {
         width: 400px;
+    }
 }
 
 /* Larger than 720P but smaller than 1080P */
