@@ -329,6 +329,9 @@ h3 {
 
 /* Small tablets in landscape orientation */
 @media screen and (min-width: 600px) and (orientation: landscape) {
+    .columns-two {
+        flex-direction: row;
+    }
     .opera-house img {
         width: 400px;
         height: auto;
@@ -424,11 +427,6 @@ h3 {
         align-items: flex-start;
         margin: 0 10%;
     }
-
-    /* FLEX DIRECTION */
-    .columns-two {
-        flex-direction: column;
-    }
 }
 
 /* 720P laptops */
@@ -464,6 +462,11 @@ h3 {
     /* GENERAL */
     .columns-two .column-half img, .columns-two img.column-half {
         width: 400px;
+    }
+
+    /* FLEX RULES */
+    .columns-two {
+        flex-direction: row;
     }
 }
 
