@@ -8,9 +8,22 @@ section {
 }
 
 div.columns-two {
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 
 .columns-two .column-half img, .columns-two img.column-half {
     margin-bottom: 0;
+}
+
+/* MEDIA QUERIES */
+
+/* Mobile devices */
+@media screen and (max-width:768px) {
+    .columns-two img {
+        margin-bottom: 80px;
+    }
+
+    .columns-two p:first-child {
+        margin-top: 50px;
+    }
 }
