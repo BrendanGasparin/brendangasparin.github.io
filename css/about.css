@@ -2,6 +2,15 @@ h2 {
     padding-bottom: 60px;
 }
 
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 div.columns-two {
     padding-bottom: 60px;
+}
+
+.columns-two .column-half img, .columns-two img.column-half {
+    margin-bottom: 0;
 }
