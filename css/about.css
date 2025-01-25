@@ -19,6 +19,10 @@ div.columns-two {
     margin-bottom: 0;
 }
 
+button.cta-button {
+    margin-top: 30px;
+}
+
 /* MEDIA QUERIES */
 
 /* Mobile devices */
