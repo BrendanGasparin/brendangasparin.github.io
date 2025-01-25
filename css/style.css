@@ -319,7 +319,9 @@ h3 {
 
 /* Mobile devices */
 @media screen and (max-width:768px) {
-
+    .hide-on-mobile {
+        display: none;
+    }
 }
 
 /* Small tablets in portrait orientation */
