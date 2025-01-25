@@ -7,6 +7,10 @@ section {
     padding-bottom: 20px;
 }
 
+section li {
+    padding-bottom: 0.3rem;
+}
+
 div.columns-two {
     padding-bottom: 40px;
 }
