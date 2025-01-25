@@ -226,14 +226,15 @@ footer {
 }
 .icon-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin: 10px;
+    gap: 15px;
 }
 .columns-two .column-half .icon-row img {
     width: 40px;
     height: auto;
     border: 0;
+    gap: 1;
 }
 
 /* FLEX LAYOUTS */
