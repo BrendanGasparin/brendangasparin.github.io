@@ -324,7 +324,7 @@ h3 {
         display: none;
     }
     /* FOOTER */
-    section .column-reverse {
+    footer.column-reverse {
         flex-direction: column-reverse;
     }
 }
@@ -441,7 +441,7 @@ h3 {
     }
 
     /* FOOTER */
-    section .column-reverse {
+    footer.column-reverse {
         flex-direction: row;
     }
 }
