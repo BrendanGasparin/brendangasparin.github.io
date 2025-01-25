@@ -323,6 +323,10 @@ h3 {
     .hide-on-mobile {
         display: none;
     }
+    /* FOOTER */
+    section .column-reverse {
+        flex-direction: column-reverse;
+    }
 }
 
 /* Small tablets in portrait orientation */
@@ -332,9 +336,6 @@ h3 {
     }
     .row-reverse {
         flex-direction: row-reverse;
-    }
-    section .column-reverse {
-        flex-direction: column-reverse;
     }
     .services-section h2 {
         padding-top: 20px;
