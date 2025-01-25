@@ -21,6 +21,10 @@
     color: var(--text-color);
 }
 
+body {
+    background-color: var(--primary-color);
+}
+
 /* HEADER AND NAV */
 header {
     position: fixed;
