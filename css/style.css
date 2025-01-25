@@ -205,17 +205,6 @@ nav>button {
 .contact-section .column-half {
     margin-bottom: 80px;
 }
-.icon-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 3.1rem 0;
-}
-.columns-two .column-half .icon-row img {
-    width: 40px;
-    height: auto;
-    border: 0;
-}
 
 /* FOOTER */
 footer {
@@ -234,6 +223,17 @@ footer {
     display: block;
     margin: 0 auto;
     border-radius: 24px;
+}
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.columns-two .column-half .icon-row img {
+    width: 40px;
+    height: auto;
+    border: 0;
 }
 
 /* FLEX LAYOUTS */
