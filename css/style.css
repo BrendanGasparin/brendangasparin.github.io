@@ -363,7 +363,7 @@ h3 {
 
     /* HEADER SECTION */
     header {
-        height: 100px;
+        height: 120px;
     }
     nav>p {
         display: block;
@@ -460,7 +460,7 @@ h3 {
 @media screen and (min-width: 1280px) {
     /* HEADER SECTION */
     header {
-        height: 60px;
+        height: 100px;
     }
     .brendan-name {
         font-size: 1.5rem;
