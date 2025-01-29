@@ -294,6 +294,9 @@ input {
     padding: 0.5rem;
     color: var(--primary-color);
 }
+/*form button {
+    margin-top: 30px;
+}*/
 
 /* GENERAL */
 h1, h2, h3, p {
@@ -468,6 +471,9 @@ h3 {
     footer .legal {
         margin-top: 0;
         text-align: left;
+    }
+    footer div.socials .icon-row {
+        justify-content: end;
     }
 
     /* NARROWED-COLUMNS */
