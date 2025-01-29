@@ -266,8 +266,14 @@ footer {
     height: auto;
     border: 3px solid var(--steel);
     border-radius: 24px;
+}
+footer div.socials .icon-row {
     margin-bottom: 50px;
 }
+footer div.socials .icon-row:last-child {
+    margin-bottom: 0;
+}
+
 
 /* FORM */
 form {
@@ -331,6 +337,9 @@ h3 {
 
 /* Small tablets in portrait orientation */
 @media screen and (min-width: 600px) and (orientation: portrait) {
+    footer {
+        align-items: center;
+    }
     .columns-two {
         flex-direction: row;
     }
@@ -344,6 +353,9 @@ h3 {
 
 /* Small tablets in landscape orientation */
 @media screen and (min-width: 600px) and (orientation: landscape) {
+    footer {
+        align-items: center;
+    }
     .opera-house img {
         width: 400px;
         height: auto;
@@ -441,6 +453,9 @@ h3 {
     }
 
     /* FOOTER */
+    footer {
+        align-items: center;
+    }
     footer.column-reverse {
         flex-direction: row;
     }
