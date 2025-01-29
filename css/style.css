@@ -211,6 +211,10 @@ footer {
     background-color: var(--primary-color);
     padding: 1rem;
 }
+footer .legal {
+    margin-top: 40px;
+    text-align: center;
+}
 
 /* MULTIPLE SECTIONS */
 .bordered-screen {
@@ -273,7 +277,6 @@ footer div.socials .icon-row {
 footer div.socials .icon-row:last-child {
     margin-bottom: 0;
 }
-
 
 /* FORM */
 form {
@@ -338,6 +341,7 @@ h3 {
 /* Small tablets in portrait orientation */
 @media screen and (min-width: 600px) and (orientation: portrait) {
     footer {
+        justify-content: space-between;
         align-items: center;
     }
     .columns-two {
@@ -354,6 +358,7 @@ h3 {
 /* Small tablets in landscape orientation */
 @media screen and (min-width: 600px) and (orientation: landscape) {
     footer {
+        justify-content: space-between;
         align-items: center;
     }
     .opera-house img {
@@ -454,10 +459,15 @@ h3 {
 
     /* FOOTER */
     footer {
+        justify-content: space-between;
         align-items: center;
     }
     footer.column-reverse {
         flex-direction: row;
+    }
+    footer .legal {
+        margin-top: 0;
+        text-align: left;
     }
 
     /* NARROWED-COLUMNS */
